@@ -11,5 +11,5 @@ movie = show_character_movies(character)
 details = get_movies_detail_from_api(character)
 
 if movie.length == 0 && details != 1
-  puts "Character and movie not found."
+  puts "Character or movie not found."
 end
